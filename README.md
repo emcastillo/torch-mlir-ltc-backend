@@ -32,7 +32,7 @@ clone this repo
 
 build with
 ```
-$ cmake -Bbuild . -DTORCH_MLIR_DIR=../torch-mlir
+$ cmake -Bbuild . -DTORCH_MLIR_DIR=../torch-mlir -DTORCH_MLIR_BUILD_DIR=../torch-mlir/build
 $ cmake --build build
 ```
 
